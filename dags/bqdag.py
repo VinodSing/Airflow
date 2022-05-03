@@ -10,7 +10,7 @@ default_args = {
     'depends_on_past' : True,
     'start_date' : datetime.date.today(),
     'end_date' : datetime.date.today() + timedelta(days=5),
-    'email' : ['vinod@happymarketer.com'],
+    'email' : ['your_email'],
     'email_on_failure' : True,
     'email_on_retry' : False,
     'retries' : 3,
@@ -31,7 +31,7 @@ dag = DAG (
 
 # BigQuery Connection config variables
 BQ_CONN_ID = "my_gcp_conn",
-BQ_PROJECT = "happymarketer-archives",
+BQ_PROJECT = "gcp_project_name",
 BQ_DATASET = "some_dataset"
 
 # Create Tasks a.k.a Operators
