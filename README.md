@@ -8,6 +8,9 @@ This Project is based on a frequent use case analysis of fetching the data from 
 <li> BigQuery </li>
 <li> Airflow </li>
 
+# Note
+Please install required dependencies to run this project
+
 </br>
 Before begining with the project, ensure to enable <strong> 'Cloud Composer API' </strong> in your Google Cloud Project
 
